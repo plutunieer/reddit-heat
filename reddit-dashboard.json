@@ -1,0 +1,359 @@
+{
+  "title": "Reddit heat · Agent-Reach demo",
+  "topic": "AI tools / agent culture",
+  "generated_at": "2026-10-02T07:52:59.401628+02:00",
+  "generated_at_label": "2026-10-02 07:52 CEST (Europe/Zurich)",
+  "method": {
+    "primary_attempt": "Agent-Reach Reddit channel (OpenCLI / rdt-cli) — blocked: no Reddit cookies / login session on this box",
+    "fallback": "Scrapling StealthyFetcher → public Redlib instance https://redlib.nadeko.net (read-only HTML scrape)",
+    "not_used": "Direct www.reddit.com / old.reddit.com .json (HTTP 403 from datacenter IP); Jina Reader (401 AS reputation block)"
+  },
+  "fetch_log": [
+    {
+      "url": "https://redlib.nadeko.net/search/?q=AI+agent+tools&sort=hot&t=week",
+      "label": "search:AI agent tools (hot/week)",
+      "count": 25,
+      "scored": 25,
+      "ok": true
+    },
+    {
+      "url": "https://redlib.nadeko.net/search/?q=AI+agents&sort=top&t=week",
+      "label": "search:AI agents (top/week)",
+      "count": 25,
+      "scored": 25,
+      "ok": true
+    },
+    {
+      "url": "https://redlib.nadeko.net/r/LocalLLaMA/hot",
+      "label": "r/LocalLLaMA hot",
+      "count": 25,
+      "scored": 25,
+      "ok": true
+    },
+    {
+      "url": "https://redlib.nadeko.net/r/ClaudeAI/hot",
+      "label": "r/ClaudeAI hot",
+      "count": 23,
+      "scored": 19,
+      "ok": true
+    },
+    {
+      "url": "https://redlib.nadeko.net/r/MachineLearning/hot",
+      "label": "r/MachineLearning hot",
+      "count": 23,
+      "scored": 22,
+      "ok": true
+    }
+  ],
+  "totals": {
+    "posts": 30,
+    "unique_subreddits": 23,
+    "sum_score": 59846,
+    "sum_comments": 9192,
+    "posts_with_score": 30,
+    "posts_with_comments": 29,
+    "max_score": 12364
+  },
+  "posts": [
+    {
+      "subreddit": "ChatGPT",
+      "title": "Q: Who should be held accountable when the AI agents commit a crime? | Trump: It's not AI. It's SI. We changed the name officially today",
+      "score": 12364,
+      "comments_count": null,
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1wu1w1q/q_who_should_be_held_accountable_when_the_ai/",
+      "snippet": "",
+      "post_id": "1wu1w1q",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "technology",
+      "title": "The personal AI agent horror stories are rolling in",
+      "score": 5207,
+      "comments_count": 745,
+      "url": "https://www.reddit.com/r/technology/comments/1wppgtp/the_personal_ai_agent_horror_stories_are_rolling/",
+      "snippet": "",
+      "post_id": "1wppgtp",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "technology",
+      "title": "FTC chair suggests AI developers should be liable for conduct of agents",
+      "score": 3498,
+      "comments_count": 190,
+      "url": "https://www.reddit.com/r/technology/comments/1wrihsr/ftc_chair_suggests_ai_developers_should_be_liable/",
+      "snippet": "",
+      "post_id": "1wrihsr",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "Futurology",
+      "title": "FTC chair suggests AI developers should be liable for conduct of agents",
+      "score": 3102,
+      "comments_count": 110,
+      "url": "https://www.reddit.com/r/Futurology/comments/1wqjyoj/ftc_chair_suggests_ai_developers_should_be_liable/",
+      "snippet": "Ferguson favors applying existing laws to AI",
+      "post_id": "1wqjyoj",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "therewasanattempt",
+      "title": "To ask who should be held accountable when the AI agents commit a crime?",
+      "score": 2658,
+      "comments_count": 462,
+      "url": "https://www.reddit.com/r/therewasanattempt/comments/1wua35u/to_ask_who_should_be_held_accountable_when_the_ai/",
+      "snippet": "",
+      "post_id": "1wua35u",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "OpenAI",
+      "title": "Q: Who should be held accountable when the AI agents commit a crime? | Trump: It's not AI. It's SI. We changed the name officially today",
+      "score": 2456,
+      "comments_count": 854,
+      "url": "https://www.reddit.com/r/OpenAI/comments/1wu20hr/q_who_should_be_held_accountable_when_the_ai/",
+      "snippet": "",
+      "post_id": "1wu20hr",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "pcmasterrace",
+      "title": "Windows 11 26H2 Update Pushes Forced AI Agents, And Breaks Graphics Drivers for Gamers",
+      "score": 2349,
+      "comments_count": 472,
+      "url": "https://www.reddit.com/r/pcmasterrace/comments/1wu8df8/windows_11_26h2_update_pushes_forced_ai_agents/",
+      "snippet": "",
+      "post_id": "1wu8df8",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "offmychest",
+      "title": "I got sued for TWO MILLION dollars over a very minor mistake. Fun!",
+      "score": 2345,
+      "comments_count": 82,
+      "url": "https://www.reddit.com/r/offmychest/comments/1wq3hq5/i_got_sued_for_two_million_dollars_over_a_very/",
+      "snippet": "During COVID lockdowns, we got up one morning and went hiking. I had my wife and two kids, and we went with another couple we trusted for some glorious outdoor adventuring. The trail we hiked was admittedly very difficult - long, infrequent",
+      "post_id": "1wq3hq5",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "greentext",
+      "title": "Artificial Intelligence",
+      "score": 2283,
+      "comments_count": 100,
+      "url": "https://www.reddit.com/r/greentext/comments/1wu74fh/artificial_intelligence/",
+      "snippet": "",
+      "post_id": "1wu74fh",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "codex",
+      "title": "Lol",
+      "score": 1763,
+      "comments_count": 319,
+      "url": "https://www.reddit.com/r/codex/comments/1wtnt6x/lol/",
+      "snippet": "",
+      "post_id": "1wtnt6x",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "title": "Claude Opus 5.5 official prompting guide",
+      "score": 1755,
+      "comments_count": 91,
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ws08mu/claude_opus_55_official_prompting_guide/",
+      "snippet": "We know Opus 5.5 is good but did you know Anthropic released an official prompting guide?? Were we all to busy making animated videos ??? I took 5 minutes to read this and then summarise the information into 12 key points covered by the gui",
+      "post_id": "1ws08mu",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "technology",
+      "title": "Amazon is blocking Meta's shopping AI agent, and plans to block Google and OpenAI's too",
+      "score": 1648,
+      "comments_count": 192,
+      "url": "https://www.reddit.com/r/technology/comments/1wpvaq7/amazon_is_blocking_metas_shopping_ai_agent_and/",
+      "snippet": "",
+      "post_id": "1wpvaq7",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "ArtificialInteligence",
+      "title": "Q: Who should be held accountable when the AI agents commit a crime? | Trump: It's not AI. It's SI. We changed the name officially today",
+      "score": 1595,
+      "comments_count": 674,
+      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1wu5r0r/q_who_should_be_held_accountable_when_the_ai/",
+      "snippet": "",
+      "post_id": "1wu5r0r",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "ModdedMinecraft",
+      "title": "Can you help me find the perfect modpack so i can sell Minecraft to my wife?",
+      "score": 1580,
+      "comments_count": 176,
+      "url": "https://www.reddit.com/r/ModdedMinecraft/comments/1wsz0b5/can_you_help_me_find_the_perfect_modpack_so_i_can/",
+      "snippet": "Hello, fellow reader! I would like to know from you the most girly girl, create+, with a lot of cute animations, cute textures, kinda cozy, comfy looking modpack based on harvest, cooking and preferably without hostile interactions planned ",
+      "post_id": "1wsz0b5",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "linuxmemes",
+      "title": "Lets hate on omarchy",
+      "score": 1480,
+      "comments_count": 291,
+      "url": "https://www.reddit.com/r/linuxmemes/comments/1wsul3a/lets_hate_on_omarchy/",
+      "snippet": "",
+      "post_id": "1wsul3a",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "singularity",
+      "title": "In just 100 days, AI crossed into real medical work. 37,000 agents searched 55,000 trials for new treatments, an AI-designed pulmonary fibrosis drug entered Phase III, and an autonomous medical agent beat doctors on ER diagnosis, 87.8% to 78.1%",
+      "score": 1471,
+      "comments_count": 285,
+      "url": "https://www.reddit.com/r/singularity/comments/1wq52am/in_just_100_days_ai_crossed_into_real_medical/",
+      "snippet": "",
+      "post_id": "1wq52am",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "ExperiencedDevs",
+      "title": "Interviewed candidates for “AI engineer” roles this week, my god is this really where our industry is going?",
+      "score": 1461,
+      "comments_count": 900,
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1wql3g2/interviewed_candidates_for_ai_engineer_roles_this/",
+      "snippet": "So last week I was tinkering with how to change up our technical interview round. For the last few years we’ve been doing a small take home followed by a live coding session where we add a new requirement, minimal AI assistance allowed. How",
+      "post_id": "1wql3g2",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "pcmasterrace",
+      "title": "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
+      "score": 1376,
+      "comments_count": 200,
+      "url": "https://www.reddit.com/r/pcmasterrace/comments/1wst39x/openai_pauses_training_its_most_powerful_models/",
+      "snippet": "All to distract from their IPO being a cash burner.",
+      "post_id": "1wst39x",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "antiai",
+      "title": "I straight up think we’re being lied to about AI coding",
+      "score": 1345,
+      "comments_count": 544,
+      "url": "https://www.reddit.com/r/antiai/comments/1wtjlx0/i_straight_up_think_were_being_lied_to_about_ai/",
+      "snippet": "I’m a software engineer. The more I use these AI coding agents, the less I trust them Starting with verbosity. I often find Claude making massive, complex PRs for what should be relatively simple. It often goes off and does things that are ",
+      "post_id": "1wtjlx0",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "technology",
+      "title": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions",
+      "score": 1179,
+      "comments_count": 45,
+      "url": "https://www.reddit.com/r/technology/comments/1wtiyoz/unsurprisingly_metas_new_muse_ai_agent_blatantly/",
+      "snippet": "",
+      "post_id": "1wtiyoz",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "doordash",
+      "title": "Dasher refused to deliver my alcohol...",
+      "score": 1156,
+      "comments_count": 850,
+      "url": "https://www.reddit.com/r/doordash/comments/1wsrii0/dasher_refused_to_deliver_my_alcohol/",
+      "snippet": "I am 23. I ordered alcohol. I was waiting at the door for the dasher to show up. I showed my ID and he scanned it, marked the order as completed, and then refused to give me my order. He said it was because my name didn't match the name on ",
+      "post_id": "1wsrii0",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "cscareerquestions",
+      "title": "AI is running our company",
+      "score": 1137,
+      "comments_count": 421,
+      "url": "https://www.reddit.com/r/cscareerquestions/comments/1wr151d/ai_is_running_our_company/",
+      "snippet": "I’m planning my exit from software now. My company has nobody at the helm anymore. The CEO and execs have fully drank the AI Kool-Aid, and AI is running our company now, not humans. I found some company documents made visible to all users o",
+      "post_id": "1wr151d",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "artificial",
+      "title": "A company ran 8 identical AI societies for weeks with different models and just published what happened. Some of it is genuinely unsettling.",
+      "score": 1120,
+      "comments_count": 276,
+      "url": "https://www.reddit.com/r/artificial/comments/1wt5joo/a_company_ran_8_identical_ai_societies_for_weeks/",
+      "snippet": "Emergence AI just launched Season 2 of Emergence World, and the results are wild. Same simulated town, same tools, same starting conditions, 10 autonomous agents each. The only thing that changed was which model was running them, Claude, GP",
+      "post_id": "1wt5joo",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "opencode",
+      "title": "Top 10 OpenCode Skill Repos",
+      "score": 1088,
+      "comments_count": 88,
+      "url": "https://www.reddit.com/r/opencode/comments/1ws6pvm/top_10_opencode_skill_repos/",
+      "snippet": "",
+      "post_id": "1ws6pvm",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "pcmasterrace",
+      "title": "Win 11 26H2 is here. with ai agents... how to fully disable ?!",
+      "score": 1030,
+      "comments_count": 575,
+      "url": "https://www.reddit.com/r/pcmasterrace/comments/1wu125l/win_11_26h2_is_here_with_ai_agents_how_to_fully/",
+      "snippet": "apart from obviously trying your very best to not click on \"download & install\" - what else can we do to avoid sharing our local pc's performance with permanently running ai \"agents\" ? has anyone sacrificed their time and opted in? if so, w",
+      "post_id": "1wu125l",
+      "query": "search:AI agents (top/week)"
+    },
+    {
+      "subreddit": "technology",
+      "title": "OpenAI CEO Sam Altman to skip congressional hearing on rogue AI agents",
+      "score": 982,
+      "comments_count": 114,
+      "url": "https://www.reddit.com/r/technology/comments/1wv595g/openai_ceo_sam_altman_to_skip_congressional/",
+      "snippet": "",
+      "post_id": "1wv595g",
+      "query": "search:AI agent tools (hot/week)"
+    },
+    {
+      "subreddit": "technews",
+      "title": "Nvidia launches new tool to keep AI agents from going rogue",
+      "score": 218,
+      "comments_count": 84,
+      "url": "https://www.reddit.com/r/technews/comments/1wsddgx/nvidia_launches_new_tool_to_keep_ai_agents_from/",
+      "snippet": "",
+      "post_id": "1wsddgx",
+      "query": "search:AI agent tools (hot/week)"
+    },
+    {
+      "subreddit": "artificial",
+      "title": "Nvidia launches new tool to keep AI agents from going rogue",
+      "score": 87,
+      "comments_count": 44,
+      "url": "https://www.reddit.com/r/artificial/comments/1wsdyez/nvidia_launches_new_tool_to_keep_ai_agents_from/",
+      "snippet": "",
+      "post_id": "1wsdyez",
+      "query": "search:AI agent tools (hot/week)"
+    },
+    {
+      "subreddit": "NowInTech",
+      "title": "FTC Chair Rejects Rogue AI Agent Defense and Says Developers Own Harm Their Tools Cause",
+      "score": 62,
+      "comments_count": 1,
+      "url": "https://www.reddit.com/r/NowInTech/comments/1wt6isi/ftc_chair_rejects_rogue_ai_agent_defense_and_says/",
+      "snippet": "",
+      "post_id": "1wt6isi",
+      "query": "search:AI agent tools (hot/week)"
+    },
+    {
+      "subreddit": "omarchy",
+      "title": "AI Agents notch on Omarchy",
+      "score": 51,
+      "comments_count": 7,
+      "url": "https://www.reddit.com/r/omarchy/comments/1wuqihb/ai_agents_notch_on_omarchy/",
+      "snippet": "",
+      "post_id": "1wuqihb",
+      "query": "search:AI agent tools (hot/week)"
+    }
+  ]
+}
